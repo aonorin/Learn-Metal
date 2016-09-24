@@ -14,6 +14,7 @@
 		AC0B142D1D96BF01001DF9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0B142C1D96BF01001DF9C5 /* Assets.xcassets */; };
 		AC0B14301D96BF01001DF9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0B142E1D96BF01001DF9C5 /* LaunchScreen.storyboard */; };
 		AC0B14391D96C020001DF9C5 /* ASMetalView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0B14381D96C020001DF9C5 /* ASMetalView.m */; };
+		ACDD303A1D96F4BD007CA49D /* Function.metal in Sources */ = {isa = PBXBuildFile; fileRef = ACDD30391D96F4BD007CA49D /* Function.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AC0B14311D96BF01001DF9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC0B14371D96C020001DF9C5 /* ASMetalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMetalView.h; sourceTree = "<group>"; };
 		AC0B14381D96C020001DF9C5 /* ASMetalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMetalView.m; sourceTree = "<group>"; };
+		ACDD30391D96F4BD007CA49D /* Function.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Function.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				AC0B14271D96BF01001DF9C5 /* ViewController.m */,
 				AC0B14371D96C020001DF9C5 /* ASMetalView.h */,
 				AC0B14381D96C020001DF9C5 /* ASMetalView.m */,
+				ACDD30391D96F4BD007CA49D /* Function.metal */,
 				AC0B14291D96BF01001DF9C5 /* Main.storyboard */,
 				AC0B142C1D96BF01001DF9C5 /* Assets.xcassets */,
 				AC0B142E1D96BF01001DF9C5 /* LaunchScreen.storyboard */,
@@ -160,6 +163,7 @@
 				AC0B14251D96BF01001DF9C5 /* AppDelegate.m in Sources */,
 				AC0B14391D96C020001DF9C5 /* ASMetalView.m in Sources */,
 				AC0B14221D96BF01001DF9C5 /* main.m in Sources */,
+				ACDD303A1D96F4BD007CA49D /* Function.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +322,7 @@
 				AC0B14361D96BF01001DF9C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
